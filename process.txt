@@ -3,5 +3,10 @@
 1.gitのリポジトリの削除方法
 →https://nlab-notebook.com/entry/2023/04/12/200000
 2.vscodeからgithubのリポジトリを登録する方法
-2_1:ブランチを発行、登録(新しい開発環境)
-2_2:gitadd→gitcommit→gitpushを行う(と思う)
+2_1:ブランチを発行(ソース管理リポジトリから可能)、登録(新しい開発環境)
+2_2:gitadd→gitcommit→gitpushを行う
+2_3push先から依然のバージョンに戻すやり方
+→https://zenn.dev/yutabeee/articles/034fb9383f441c
+3.docker環境の構築方法
+3_1:概念について
+→https://qiita.com/minato-naka/items/e9cd026747693759800c
