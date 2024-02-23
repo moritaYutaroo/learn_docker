@@ -10,3 +10,5 @@
 3.docker環境の構築方法
 3_1:概念について
 →https://qiita.com/minato-naka/items/e9cd026747693759800c
+3_2:pythonの起動方法について
+→https://www.youtube.com/watch?v=TJ2SOBjEopo
