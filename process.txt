@@ -10,8 +10,5 @@
 3.docker環境の構築方法
 3_1:概念について
 →https://qiita.com/minato-naka/items/e9cd026747693759800c
-<<<<<<< Updated upstream
-=======
 3_2:pythonの実行環境構築方法について
 →https://www.youtube.com/watch?v=TJ2SOBjEopo
->>>>>>> Stashed changes
