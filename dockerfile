@@ -3,8 +3,6 @@ FROM python:3.9.6
 
 # ユーザー設定
 USER root
-# # 作業ディレクトリを設定
-# WORKDIR /app
 
 # パッケージアップデート
 RUN apt-get update
@@ -17,9 +15,11 @@ ENV LC_ALL ja_JP.UTF-8
 ENV TZ JST-9
 ENV TERM xterm
 
+# requirements.txtをコピーしてパッケージをインストール
 COPY requirements.txt .
-# モジュールを追加
 RUN python -m pip install -r requirements.txt
+
+# 追加のツールをインストール
 RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
