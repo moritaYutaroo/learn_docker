@@ -16,7 +16,7 @@ Dockerの入れ方についてわからなかったらこちらのリンクが�
 参考サイト：https://qiita.com/zembutsu/items/a98f6f25ef47c04893b3<br> 
 
 1.docker desktopを起動させてください。<br> 
-2.github上から、code→download zip をクリックし、インストール→解凍してください。<br> 
+2.github上から、main→developに移動し、code→download zip をクリック、インストール→解凍してください。<br> 
 3.vscodeを起動し、解凍したフォルダを開いてください。<br> 
 4.vscode上でターミナル(control+shift+@)を起動してください。<br> 
 5.以下の流れで環境を構築することができます。<br> 
