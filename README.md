@@ -20,6 +20,7 @@ Dockerの入れ方についてわからなかったらこちらのリンクが�
 3.vscodeを起動し、解凍したフォルダを開いてください。<br> 
 4.vscode上でターミナル(control+shift+@)を起動してください。<br> 
 5.以下の流れで環境を構築することができます。<br> 
+→詳細の内容はprocess.txtに3_4の項目にて記入しています。
 5_1:docker compose up -d --build<br> 
 5_2:docker compose exec python3 bash<br> 
 5_3:cd opt<br> 
