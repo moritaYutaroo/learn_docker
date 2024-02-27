@@ -12,3 +12,13 @@
 →https://qiita.com/minato-naka/items/e9cd026747693759800c
 3_2:pythonの実行環境構築方法について
 →https://www.youtube.com/watch?v=TJ2SOBjEopo
+3_3勉強したコマンド一覧
+3_3_1:tagが99.9の環境の作り方
+docker build -t test_docker:99.9 .   
+3_3_2:buildした後に、image_test_dockerという名称のイメージを作る方法
+docker run --name image_test_docker -it -d test_docker:99.9
+3_3_3:イメージが作られているかの確認
+docker images
+3_3_4:実際にコンテナを起動する
+docker exec -it image_test_docker bash　
+(これは、makedirectoryに入る感じ。
